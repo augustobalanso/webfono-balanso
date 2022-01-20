@@ -9,103 +9,217 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/91e0861dab.js" crossorigin="anonymous"></script>
-
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
-    <!-- PRUEBA DE COMMENT -->
-    <header class="header__main">
-        <div>
-            <a href="./index.html"><img src="images/SVG/logo.svg" alt="LOGO" class="header__logo"></a>
-        </div>
-
-        <div class="header__nav">
-            <ul>
-                <li><a href="./index.html">Inicio</a></li>
-                <li><a href="pages/sobrenosotros.html">Sobre nosotros</a></li>
-                <li><a href="pages/pedagogia.html">Pedagogía</a></li>
-                <li><a href="pages/contacto.html">Contacto</a></li>
-                <li><a href="pages/acerca.html">Acerca</a></li>
-            </ul>
-        </div>
-
-        <i class="fa fa-bars" onclick=""></i>
-
-
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand m-3" href="#"><img src="./images/SVG/logo.svg" alt="LOGO"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end h4" id="navbarNavAltMarkup">
+                    <div class="navbar-nav header__nav">
+                        <div class="pe-4">
+                            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                        </div>
+                        <div class="pe-4">
+                            <a class="nav-link" href="./pages/pedagogia.html">Pedagogia</a>
+                        </div>
+                        <div class="pe-4">
+                            <a class="nav-link" href="./pages/sobrenosotros.html">Sobre Nosotros</a>
+                        </div>
+                        <div class="pe-4">
+                            <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+                        </div>
+                        <div class="pe-4">
+                            <a class="nav-link" href="./pages/acerca.html">Acerca</a>
+                        </div>
+                    </div>
+                </div>
+        </nav>
     </header>
 
     <main>
+        <div class="container">
+            <h1>Lic. Débora Merlino</h1>
 
-        <h1>Lic. Débora Merlino</h1>
-
-        <div class="slider">
-            <div class="slider__placeholder"><img src="http://placekitten.com/1280/720" alt="" class="slider__img">
-                <p class="slider__text">Fonoaudiología con orientación <br>en Neurolingüística.</p>
+            <div class="carousel_placeholder d-flex justify-content-center .margin-b15vp">
+                <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="http://placekitten.com/1280/720" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Fonoaudiología</h5>
+                                <p>Some representative placeholder content for the first slide.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="http://placekitten.com/1280/720" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Neurolingüística</h5>
+                                <p>Some representative placeholder content for the second slide.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="http://placekitten.com/1280/720" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>ADOS / ADIR</h5>
+                                <p>Some representative placeholder content for the third slide.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
             </div>
 
+
+            <div class="mirrored__imgtext d-flex flex-column justify-content-evenly margin-y15vp">
+                <div class="d-flex flex-column-reverse flex-lg-row justify-content-evenly align-items-center mb-5">
+                    <p class="p__mirrored1 col-lg-4 col-8">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita harum
+                        reiciendis animi aspernatur. Nostrum repudiandae aliquam, voluptatem distinctio incidunt placeat
+                        esse deserunt eaque aliquid debitis expedita quos omnis non eius eum perspiciatis ducimus
+                        accusamus,
+                        impedit quo id ex dolorem? Aut, aliquid impedit blanditiis hic beatae eligendi praesentium illum
+                        possimus esse.</p>
+                    <img src="http://placekitten.com/500/281" alt="" class="img__mirrored1 col-lg-4 col-8">
+                </div>
+                <div class="d-flex flex-column flex-lg-row justify-content-evenly align-items-center">
+                    <img src="http://placekitten.com/500/281" alt="" class="img__mirrored2 col-lg-4 col-8">
+                    <p class="p__mirrored2 col-lg-4 col-8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam fuga libero
+                        iste
+                        sequi unde aliquid inventore voluptatum, impedit, cum totam, sint voluptatem quam nostrum rem
+                        quae
+                        soluta porro ratione. Deserunt, dolorem? Ullam a magni asperiores laborum, incidunt
+                        reprehenderit,
+                        voluptates hic, in excepturi voluptatum tempore necessitatibus illum harum perferendis amet
+                        consequuntur?</p>
+                </div>
+            </div>
+
+            <div class="row flex-lg-row flex-column justify-content-evenly align-items-center margin-y15vp">
+                <div class="text-center col-lg-3 col-10">
+                    <img src="http://placekitten.com/300/300" alt="TRIP IMG 1" class="pb-5">
+                    <p class="pb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio fugit, tempora, repellendus
+                        suscipit cumque eveniet odio quasi quo corporis veniam quidem, doloremque hic ipsam quisquam eum
+                        tenetur! Dolorem voluptates delectus, deleniti id magnam a veniam minima maiores incidunt.
+                        Sapiente,
+                        earum!</p>
+                </div>
+                <div class="text-center col-lg-3 col-10">
+                    <img src="http://placekitten.com/300/300" alt="TRIP IMG 2" class="pb-5">
+                    <p class="pb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio fugit, tempora, repellendus
+                        suscipit cumque eveniet odio quasi quo corporis veniam quidem, doloremque hic ipsam quisquam eum
+                        tenetur! Dolorem voluptates delectus, deleniti id magnam a veniam minima maiores incidunt.
+                        Sapiente,
+                        earum!</p>
+                </div>
+                <div class="text-center col-lg-3 col-10">
+                    <img src="http://placekitten.com/300/300" alt="TRIP IMG 3" class="pb-5">
+                    <p class="pb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio fugit, tempora, repellendus
+                        suscipit cumque eveniet odio quasi quo corporis veniam quidem, doloremque hic ipsam quisquam eum
+                        tenetur! Dolorem voluptates delectus, deleniti id magnam a veniam minima maiores incidunt.
+                        Sapiente,
+                        earum!</p>
+                </div>
+            </div>
         </div>
-
-        <div class="mirrored__imgtext">
-            <div class="text__img">
-                <p class="p__mirrored1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita harum
-                    reiciendis animi aspernatur. Nostrum repudiandae aliquam, voluptatem distinctio incidunt placeat
-                    esse deserunt eaque aliquid debitis expedita quos omnis non eius eum perspiciatis ducimus accusamus,
-                    impedit quo id ex dolorem? Aut, aliquid impedit blanditiis hic beatae eligendi praesentium illum
-                    possimus esse.</p>
-                <img src="http://placekitten.com/500/281" alt="" class="img__mirrored1">
-            </div>
-            <div class="img__text">
-                <img src="http://placekitten.com/500/281" alt="" class="img__mirrored2">
-                <p class="p__mirrored2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam fuga libero iste
-                    sequi unde aliquid inventore voluptatum, impedit, cum totam, sint voluptatem quam nostrum rem quae
-                    soluta porro ratione. Deserunt, dolorem? Ullam a magni asperiores laborum, incidunt reprehenderit,
-                    voluptates hic, in excepturi voluptatum tempore necessitatibus illum harum perferendis amet
-                    consequuntur?</p>
-            </div>
-        </div>
-
-        <div class="triplets">
-            <div class="triplet1">
-                <img src="http://placekitten.com/300/300" alt="TRIP IMG 1">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio fugit, tempora, repellendus
-                    suscipit cumque eveniet odio quasi quo corporis veniam quidem, doloremque hic ipsam quisquam eum
-                    tenetur! Dolorem voluptates delectus, deleniti id magnam a veniam minima maiores incidunt. Sapiente,
-                    earum!</p>
-            </div>
-            <div class="triplet2">
-                <img src="http://placekitten.com/300/300" alt="TRIP IMG 2">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio fugit, tempora, repellendus
-                    suscipit cumque eveniet odio quasi quo corporis veniam quidem, doloremque hic ipsam quisquam eum
-                    tenetur! Dolorem voluptates delectus, deleniti id magnam a veniam minima maiores incidunt. Sapiente,
-                    earum!</p>
-            </div>
-            <div class="triplet3">
-                <img src="http://placekitten.com/300/300" alt="TRIP IMG 3">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio fugit, tempora, repellendus
-                    suscipit cumque eveniet odio quasi quo corporis veniam quidem, doloremque hic ipsam quisquam eum
-                    tenetur! Dolorem voluptates delectus, deleniti id magnam a veniam minima maiores incidunt. Sapiente,
-                    earum!</p>
-            </div>
-        </div>
-
     </main>
 
-    <footer>
-        <div class="footer__social">
-            <ul>
-                <li><a href="https://www.google.com"><i class="fab fa-google icon"></i></a></li>
-                <li><a href="https://www.facebook.com"><i class="fab fa-facebook-f icon"></i></a></li>
-                <li><a href="https://www.instagram.com"><i class="fab fa-instagram icon"></i></a></li>
-            </ul>
-        </div>
+    <footer class="container-fluid">
+        <div class="d-flex flex-column text-center">
+            <div class="row flex-column flex-md-row justify-content-evenly align-items-center margin-y5vp">
+                <div class="footer__social col-lg-3 col-5 d-flex flex-column align-items-center borderb_custom">
+                    <h3>Encontranos en:</h3>
+                    <div class="footer__sociallinks d-flex">
+                        <a href="https://www.google.com"><i class="fab fa-google icon"></i></a></li>
+                        <a href="https://www.facebook.com"><i class="fab fa-facebook-f icon"></i></a></li>
+                        <a href="https://www.instagram.com"><i class="fab fa-instagram icon"></i></a></li>
+                    </div>
+                </div>
+                <div class="footer__nav col-lg-3 col-5 borderb_custom">
+                    <div class="footer__navtitle">
+                        <h3>Navegacion</h3>
+                    </div>
+                    <div class="footer__navlinks d-flex justify-content-evenly">
+                        <div class="d-flex flex-column align-items-start">
+                            <a class="m-2" href="#">Inicio</a>
+                            <a class="m-2" href="./pages/pedagogia.html">Pedagogia</a>
+                            <a class="m-2" href="./pages/acerca.html">Acerca</a>
+                        </div>
+                        <div class="d-flex flex-column align-items-end">
+                            <a class="m-2" href="./pages/sobrenosotros.html">Sobre Nosotros</a>
+                            <a class="m-2" href="./pages/contacto.html">Contacto</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer__info col-lg-3 col-5 d-flex justify-content-center">
+                    <ul>
+                        <li>
+                            <div class="footer__infoicon">
+                                <i class="fas fa-phone-alt"></i>
+                            </div>
+                            <div class="footer__infolink">
+                                <a href="tel:+5491173600922">+54 11 7360 0922</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="footer__infoicon">
+                                <i class="far fa-envelope"></i>
+                            </div>
+                            <div class="footer__infolink">
+                                <a href="mailto:deboramerlino@hotmail.com.ar"
+                                    target="_blank">deboramerlino@hotmail.com.ar</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="footer__infoicon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="footer__infolink">
+                                <a href="https://goo.gl/maps/YvnrcjF8YNFXek5x6" target="_blank">Juan B. Ambrosetti
+                                    92</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="footer__infoicon">
+                                <i class="far fa-clock"></i>
+                            </div>
+                            <div class="footer__infolink">
+                                Lun - Vie : 09:00 - 18:00
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
 
-        <div class="footer__devsign">
-            <p>© AUGUSTO BALANSÓ | 2021</p>
+            <div class="footer__devsign">
+               © AUGUSTO BALANSÓ | 2021
+            </div>
         </div>
     </footer>
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
     </script>
