@@ -1,22 +1,23 @@
 footer {
-    background-color: #8c67b9;
+    background-color: $bgfooter-purple;
     color: white;
 
     box-shadow: 1px -3px 9px -1px rgba(0, 0, 0, 0.75);
     -webkit-box-shadow: 1px -3px 9px -1px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 1px -3px 9px -1px rgba(0, 0, 0, 0.75);
 
+    a:visited, a {
+        text-decoration: none;
+        color: white;
+    }
 }
 
-footer a:visited,
-footer a {
-    text-decoration: none;
-    color: white;
+.footer__green--hover {
+    color: $primary-green;
 }
 
 
 .footer__social a {
-    margin: 1rem 1rem;
     font-size: 3rem;
 }
 
@@ -28,24 +29,14 @@ footer a {
     padding: 20px;
 }
 
-.footer__navlinks-right {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-}
-
-
-.footer__info ul li {
-    list-style-type: none;
-    display: flex;
-    align-content: space-between;
-    line-height: 35px;
-}
-
 .footer__infoicon {
-    width: 1rem;
+    @include ancho(1rem)
 }
 
 .footer__infolink {
     padding-left: 20px;
+
+    a:hover{
+        color: $primary-green;
+    }
 }

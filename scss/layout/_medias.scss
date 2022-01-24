@@ -10,8 +10,10 @@
 
     .form__input,
     .form__textarea,
-    .form__label {
-        width: 80%;
+    .form__label, 
+    .img__mirrored1,
+    .img__mirrored2 {
+        @include ancho(80vw)
     }
 
     .text__img {
@@ -20,11 +22,6 @@
 
     .img__text {
         margin: 2rem 0rem;
-    }
-
-    .img__mirrored1,
-    .img__mirrored2 {
-        width: 80vw;
     }
 
     .p__mirrored1,
@@ -100,7 +97,7 @@
     }
 
     .nav-link:hover {
-        color: #74c902;
+        color: $primary-green;
     }
 
 }

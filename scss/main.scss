@@ -1,11 +1,11 @@
 @import './variables/variables';
+@import './variables/mixins';
 
 @import './base/_base.scss';
 @import './layout/header';
 @import './layout/main';
 @import './layout/footer';
 @import './pages/form';
-@import './pages/about';
 @import './components/tables';
 @import './components/margincustom';
 @import './layout/medias';

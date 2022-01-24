@@ -1,5 +1,5 @@
 .navbar-brand {
     img {
-        height: 70px;
+        @include altura(70px)
     }
 }

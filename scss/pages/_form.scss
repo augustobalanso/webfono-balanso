@@ -1,5 +1,5 @@
 .form__container {
-    background-color: #121212;
+    background-color: $almostblack;
     width: 75%;
     margin: 3rem auto;
     padding: 1.5rem 1rem;
@@ -8,7 +8,7 @@
 }
 
 .formContainer__title {
-    color: whitesmoke;
+    color: $white;
     text-align: center;
     font-size: 1.5rem;
     margin: 1.5rem;
@@ -19,7 +19,7 @@
 }
 
 .form__label {
-    color: whitesmoke;
+    color: $white;
     font-weight: 600;
     text-align: left;
     display: inline-block;
@@ -31,10 +31,10 @@
     width: 60%;
     margin: 0.5rem;
     padding: 00.5rem;
-    background-color: #121212;
+    background-color: $almostblack;
     border: none;
-    border-bottom: solid 1px #74c902;
-    color: whitesmoke;
+    border-bottom: solid 1px $primary-green;
+    color: $white;
     font-size: 1rem;
     font-family: 'Poppins', sans-serif;
     transition: border-bottom 0.5s ease;
@@ -48,12 +48,12 @@
 .form__input:focus,
 .form__textarea:focus {
     outline: none;
-    border-bottom: solid 1px #8553bd;
+    border-bottom: solid 1px $primary-purple;
     transition: border-bottom 0.5s ease;
 }
 
 .form__input--submit {
-    background-color: #74c902;
+    background-color: $primary-green;
     margin-top: 1.5rem;
     border-radius: 0.3rem;
     font-weight: 600;
@@ -62,5 +62,5 @@
 }
 
 .form__input--submit:hover {
-    background-color: #3f6e00;
+    background-color: $dark-green;
 }

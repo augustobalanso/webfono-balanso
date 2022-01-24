@@ -1,0 +1,7 @@
+@mixin altura($altura){
+    height: $altura;
+}
+ 
+@mixin ancho($ancho){
+    width: $ancho;
+}
