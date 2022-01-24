@@ -1,9 +1,21 @@
-$marginsh: 10vh, 15vh, 20vh, 30vh, 50vh;
+$marginsh: 5vh, 10vh, 15vh, 20vh, 30vh, 50vh;
 
 @each $marginh in $marginsh{
     .margin-y#{$marginh} {
         margin-top: $marginh;
         margin-bottom: $marginh;
+    }
+}
+
+@each $marginh in $marginsh{
+    .margin-b#{$marginh} {
+        margin-bottom: $marginh;
+    }
+}
+
+@each $marginh in $marginsh{
+    .margin-t#{$marginh} {
+        margin-top: $marginh;
     }
 }
 
