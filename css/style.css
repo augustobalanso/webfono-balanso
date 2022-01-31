@@ -123,18 +123,6 @@ footer {
   padding: 0;
   margin: 0; }
 
-table,
-th,
-td {
-  padding: 15px;
-  margin-left: auto;
-  margin-right: auto;
-  width: 80vw;
-  text-align: center; }
-
-tr:nth-child(even) {
-  background-color: #dadada; }
-
 .margin-y5vh {
   margin-top: 5vh;
   margin-bottom: 5vh; }
