@@ -1,6 +1,6 @@
 # 7mo desafío - Augusto Balansó - Página de Fonoaudiología.
 
-** RÚBRICAS DE 7MO DESAFIO **
+**RÚBRICAS DE 7MO DESAFIO**
 
 "Todos sus textos aportan relevancia al sitio." : Se cambian todos los Lorem por texto relevante.
 
