@@ -25,6 +25,14 @@ footer {
     margin: .5rem 0rem;
 }
 
+.footer__navlinks {
+    div {
+        a:hover {
+            color: $primary-green;
+        }
+    }
+}
+
 .footer__navtitle {
     padding: 20px;
 }
