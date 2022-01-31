@@ -1,5 +1,7 @@
 # 7mo desafío - Augusto Balansó - Página de Fonoaudiología.
 
+** RÚBRICAS DE 7MO DESAFIO **
+
 "Todos sus textos aportan relevancia al sitio." : Se cambian todos los Lorem por texto relevante.
 
 "Bien aplicadas las etiquetas meta description y keyword. Las mismas se repiten en cada página pero con un valor distinto." : Se aplican keywords y descripciones relevantes a la página que se visita.
