@@ -1,3 +1,21 @@
+.maxw, .iframe__map {
+  max-width: 100%; }
+
+.maxh, .iframe__map {
+  max-height: 100%; }
+
+.bgsg--google {
+  background: linear-gradient(to right, #EA4335, #EA4335 50%, white 50%); }
+
+.bgsg--facebook, .footer__sociallinks a .fa-facebook-f {
+  background: linear-gradient(to right, #1778F2, #1778F2 50%, white 50%); }
+
+.bgsg--instagram {
+  background: linear-gradient(to right, #DD2A7B, #DD2A7B 50%, white 50%); }
+
+.bgsg--twitter {
+  background: linear-gradient(to right, #1DA1F2, #1DA1F2 50%, white 50%); }
+
 * {
   margin: 0;
   padding: 0;
@@ -31,15 +49,35 @@ footer {
   box-shadow: 1px -3px 9px -1px rgba(0, 0, 0, 0.75);
   -webkit-box-shadow: 1px -3px 9px -1px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 1px -3px 9px -1px rgba(0, 0, 0, 0.75); }
-  footer a:visited, footer a {
+  footer a:visited,
+  footer a {
     text-decoration: none;
     color: white; }
 
 .footer__green--hover {
   color: #74c902; }
 
-.footer__social a {
-  font-size: 3rem; }
+.footer__sociallinks a .fa-google {
+  background-image: url(../../images/icons/bggoogle.jpg); }
+
+.footer__sociallinks a .fa-instagram {
+  background-image: url(../../images/icons/bgig.jpg); }
+
+.footer__sociallinks a .icon {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 100%;
+  background-position: 100%;
+  position: relative;
+  display: inline-block;
+  font-size: 4.1em;
+  font-weight: 800;
+  color: white;
+  transition: background-position 275ms ease; }
+
+.footer__sociallinks a .icon:hover {
+  background-position: 0 100%; }
 
 .footer__devsign {
   margin: .5rem 0rem; }
@@ -117,8 +155,6 @@ footer {
   background-color: #539102; }
 
 .iframe__map {
-  max-width: 100%;
-  max-height: 100%;
   height: 60vh;
   padding: 0;
   margin: 0; }

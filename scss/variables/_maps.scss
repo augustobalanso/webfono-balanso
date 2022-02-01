@@ -1,0 +1,12 @@
+$bgsg-sn: (
+    google: #EA4335,
+    facebook:  #1778F2,
+    instagram: #DD2A7B,
+    twitter: #1DA1F2,
+); 
+
+@each $red, $color in $bgsg-sn {
+   .bgsg--#{$red} {
+        background: linear-gradient(to right, $color, $color 50%, white 50%);
+   }
+}
