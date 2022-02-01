@@ -58,10 +58,10 @@ footer {
   color: #74c902; }
 
 .footer__sociallinks a .fa-google {
-  background-image: url(../../images/icons/bggoogle.jpg); }
+  background-image: url(../images/icons/bggoogle.jpg); }
 
 .footer__sociallinks a .fa-instagram {
-  background-image: url(../../images/icons/bgig.jpg); }
+  background-image: url(../images/icons/bgig.jpg); }
 
 .footer__sociallinks a .icon {
   background-clip: text;
