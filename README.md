@@ -2,7 +2,7 @@
 
 **RÚBRICAS DE 7MO DESAFIO**
 
-"Aplicar un mapa y un extend en nuestro proyecto" : Se agrega mapa (./scss/variables/_maps.scss) para los colores de las redes sociales linkeadas en el footer, también 3 extend:
+"Aplicar un mapa y un extend en nuestro proyecto" : Se agrega mapa (./scss/variables/_maps.scss) para los colores de las animaciones linkeadas en el footer, también 3 extend:
 - (./scss/layout/_footer.scss -- linea 28) para aplicar sobre una clase ya existente.
 - (./scss/variables/_extend.scss) para aplicar max height y max width al mapa de "dondeestamos.html"
 
