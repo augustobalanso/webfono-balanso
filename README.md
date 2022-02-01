@@ -2,6 +2,8 @@
 
 **RÚBRICAS DE 7MO DESAFIO**
 
+"Aplicar un mapa y un extend en nuestro proyecto" : Se agrega mapa para los colores de las redes sociales linkeadas en el footer, también un extend para aplicar sobre una clase ya existente.
+
 "Todos sus textos aportan relevancia al sitio." : Se cambian todos los Lorem por texto relevante.
 
 "Bien aplicadas las etiquetas meta description y keyword. Las mismas se repiten en cada página pero con un valor distinto." : Se aplican keywords y descripciones relevantes a la página que se visita.
