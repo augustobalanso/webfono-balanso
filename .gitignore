@@ -1,0 +1,13 @@
+.gitattributes
+.firebaserc
+rubricas.docx
+.firebase/
+node_modules/
+.github/
+public/
+*.json
+*.backup
+*.map
+*.log
+*.
+CNAME
