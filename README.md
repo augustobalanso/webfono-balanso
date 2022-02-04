@@ -7,3 +7,7 @@
 - Se integra FIREBASE al proyecto y se integra con github para que en cada PR y Merge todo se suba automaticamente al hosting ( https://licdeboramerlino.com.ar/ )
 
 ## Se agrega PDF de presupuesto.
+
+## Se agrega 404 
+
+![til](https://media.giphy.com/media/Svf2Raa6ekRpZsQVNi/giphy.gif)
