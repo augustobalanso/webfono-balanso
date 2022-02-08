@@ -244,6 +244,14 @@ main h1, main h3 {
 
 /* ----- ----- ----- ----- ----- MEDIA QUERIES ----- ----- ----- ----- ----- */
 @media (max-width: 992px) {
+  .error404__gif {
+    position: absolute;
+    top: 20%;
+    right: 0;
+    max-height: 85vh;
+    width: 60vw;
+    z-index: -1;
+    overflow: hidden; }
   /* ----- ----- ----- FORM RESIZER ----- ----- -----   */
   .form__container {
     width: 100%;
