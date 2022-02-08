@@ -1,4 +1,4 @@
-# 3er Entrega Proyecto Final - Augusto Balansó - Página de Fonoaudiología.
+# Entrega Proyecto Final - Augusto Balansó - Página de Fonoaudiología.
 
 - Se agregan tarjetas de bootstrap para la última sección del main del index.html.
 
