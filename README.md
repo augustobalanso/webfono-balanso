@@ -4,7 +4,7 @@
 
 - Se agregan animaciones a las redes sociales del footer.
 
-- Se integra FIREBASE al proyecto y se integra con github para que en cada PR y Merge todo se suba automaticamente al hosting ( https://licdeboramerlino.com.ar/ )
+- Se integra FIREBASE al proyecto para brindar hosting con https ( https://licdeboramerlino.com.ar/ )
 
 ## Se agrega PDF de presupuesto.
 
